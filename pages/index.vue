@@ -7,7 +7,7 @@
           <header>
             <v-row>
               <v-col cols="12" class="d-flex justify-end">
-                <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>
+                <div class="d-flex align-center mx-4">Kinjy Shotaro</div>
                 <v-spacer> </v-spacer>
                 <div class="d-flex align-center">
                   <v-btn
