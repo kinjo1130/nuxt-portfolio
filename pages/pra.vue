@@ -1,5 +1,5 @@
 <template>
-  <v-app class="grey">
+  <v-app class="grey" >
     <v-container fluid>
       <v-content>
         <v-flex>
@@ -32,49 +32,52 @@
                       <v-form
                         action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSedrZU2MbBAIMYOUSC1luOrhdaLBLEKtj4ACQhqOXuYSjnT9w/formResponse"
                         method="POST"
-                        @submit="submitted=true;"
-                        lazy-validation
+                       
                         target="hidden_iframe"
+                        onsubmit="submitted=true;"
                         ref="test_form"
                       >
+                        <label>名前</label>
                         <v-text-field
-                          required
-                          label="Name"
+                        required="required"
                           :rules="[required]"
                           type="text"
                           name="entry.2005620554"
+                          placeholder="金城　翔太郎"
                           v-model="name"
                         ></v-text-field>
+                        <label>メールアドレス</label>
                         <v-text-field
-                          required
                           :rules="[required]"
                           type="email"
                           name="entry.1045781291"
-                          label="sample@mail.co.jp"
+                          placeholder="sample@mail.co.jp"
                           v-model="email"
                         ></v-text-field>
+                        <label>お問い合わせ内容</label>
                         <v-textarea
-                          v-model="messages"
+                         v-model="messages"
                           name="entry.839337160"
-                          label="お問い合わせ内容"
+                          placeholder="問合せ内容を記入してください。"
                           required
                           :rules="[required]"
-                        ></v-textarea>
+                         
+                        />
                         <div class="d-flex justify-center">
                           <v-btn
                             type="submit"
                             outlined
                             color="blue"
-                            @click="submit()"
-                            >送信</v-btn
-                          >
+                            @submit.prevent="submit()"
+                          ></v-btn>
+                          
                         </div>
                         <iframe
                           name="hidden_iframe"
                           id="hidden_iframe"
                           style="display: none"
-                          @load="submitted && $router.push('thanks')"
-                        ></iframe>
+                          onload="if(submitted){window.location='/';}"
+                        ><span v-if="success"></span></iframe>
                       </v-form>
                     </v-col>
                   </v-row>
@@ -99,14 +102,15 @@ export default Vue.extend({
     
   data() {
     return {
-     theme: true,
+      theme: true,
+      submitted: false,
      name:"",
      email:"",
      messages:"",
-    
-     
+     text:"",
+     success: false,
     required: value => !!value || "必ず入力してください",
-      submitted: false
+      
 
     }
   },
@@ -122,11 +126,18 @@ export default Vue.extend({
   },
   methods :{
       submit(){
-      if (this.$refs.test_form.validate()){
+          
+          if (this.name === "" || this.mail === "" || this.message === "") {
+        this.text = "⚠️全ての項目を記入してください！";
+      } 
+
+      if (this.$refs.test_form.validate()) {
+        // すべてのバリデーションが通過したときのみ
+        // if文の中に入る
         this.success = true;
       } else {
+          required: value => !!value || "必ず入力してください",
         this.success = false;
-         
       }
       
           
