@@ -10,11 +10,12 @@
                 <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>
                 <v-spacer> </v-spacer>
                 <div class="d-flex align-center">
-                  <v-switch
-                    color="orange"
-                    v-model="theme"
+                  <v-btn
+                    outlined
+                    :color="theme ? 'orange' : 'yellow'"
+                    @click="theme = !theme"
                     :prepend-icon="themeIcon"
-                  ></v-switch>
+                  ><v-icon>{{ themeIcon }}</v-icon></v-btn>
                 </div>
               </v-col>
             </v-row>

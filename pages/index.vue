@@ -34,7 +34,7 @@
                   <v-col class="d-flex justify-center">
                     <v-avatar size="200" class="d-flex justify-center">
                       <v-img
-                        src="/IMG_0711.jpeg"
+                        src="/myface.jpeg"
                         class="d-flex justify-center"
                       ></v-img>
                     </v-avatar>
@@ -80,7 +80,7 @@
                       <section class="mb-5">
                         <v-btn
                           outlined
-                          @click="TwitterClick"
+                          @click="LinkClick('https://twitter.com/kinjyo1130')"
                           style="text-transform: none"
                           class="mr-2"
                         >
@@ -89,13 +89,24 @@
                         </v-btn>
                         <v-btn
                           outlined
-                          @click="QiitaClick"
+                          @click="LinkClick('https://qiita.com/abcshotaro616')"
+                          
+                          style="text-transform: none"
+                          class="mr-2"
+                        >
+                        <v-icon color="github">mdi-github</v-icon>
+                          <span>Github</span>
+                        </v-btn>
+                        <v-btn
+                          outlined
+                          @click="LinkClick('https://qiita.com/abcshotaro616')"
                           color="qiita"
                           style="text-transform: none"
+                          class="mr-2"
                         >
-                        
                           <span>Qiita</span>
                         </v-btn>
+                        
                         
                       </section>
                       <!-- 随時追加する -->
@@ -103,7 +114,7 @@
                       <v-divider></v-divider>
                       <p>
                         <nuxt-link to="/contact">お問い合わせページ</nuxt-link
-                        >はこちら、もしくは<a href="" @click="TwitterDM"
+                        >はこちら、もしくは<a href="" @click="LinkClick('https://twitter.com/messages/865937877271625729-865937877271625729?text=')"
                           >TwitterのDMまで</a
                         >
                       </p>
@@ -144,18 +155,10 @@ export default Vue.extend({
     }
   },
   methods:{
-    TwitterClick(){
-      const url = "https://twitter.com/kinjyo1130";
+    LinkClick(url){
       window.open( url,'_blank')
     },
-    QiitaClick(){
-      const url = "https://qiita.com/abcshotaro616";
-      window.open(url, '_blank')
-    },
-    TwitterDM(){
-      const url = "https://twitter.com/messages/865937877271625729-865937877271625729?text=";
-      window.open(url,'_blank')
-    },
+    
 
   },
   

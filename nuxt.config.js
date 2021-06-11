@@ -65,7 +65,6 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
-          github: '#211F1F',
           facebook: '#3B5998',
           twitter: '#1DA1F2',
           qiita: '#4cb10d'
