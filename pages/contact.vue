@@ -4,7 +4,7 @@
       <v-content>
         <v-flex>
           <!--ヘッダー-->
-          <header>
+          <header class="mb-5">
             <v-row>
               <v-col cols="12" class="d-flex justify-end">
                 <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>

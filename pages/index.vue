@@ -4,7 +4,7 @@
       <v-content>
         <v-flex>
           <!--ヘッダー-->
-          <header>
+          <header class="mb-2">
             <v-row>
               <v-col cols="12" class="d-flex justify-end">
                 <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>
@@ -75,19 +75,20 @@
                           outlined
                           @click="LinkClick('https://twitter.com/kinjyo1130')"
                           style="text-transform: none"
-                          class="mr-2"
+                          color="twitter"
+                          class="mr-2 my-1"
                         >
-                          <v-icon color="twitter">mdi-twitter</v-icon>
+                          
                           <span>Twitter</span>
                         </v-btn>
                         <v-btn
                           outlined
                           @click="LinkClick('https://qiita.com/abcshotaro616')"
-                          
+                          color="github"
                           style="text-transform: none"
-                          class="mr-2"
+                          class="mr-2 my-1"
                         >
-                        <v-icon color="github">mdi-github</v-icon>
+                        
                           <span>Github</span>
                         </v-btn>
                         <v-btn
@@ -95,9 +96,18 @@
                           @click="LinkClick('https://qiita.com/abcshotaro616')"
                           color="qiita"
                           style="text-transform: none"
-                          class="mr-2"
+                          class="mr-2 my-1"
                         >
                           <span>Qiita</span>
+                        </v-btn>
+                        <v-btn
+                          outlined
+                          @click="LinkClick('https://www.facebook.com/profile.php?id=100041031907963')"
+                          color="facebook"
+                          style="text-transform: none"
+                          class="mr-2 my-1"
+                        >
+                          <span>Facebook</span>
                         </v-btn>
                         
                         
