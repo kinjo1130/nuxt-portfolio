@@ -32,9 +32,9 @@
                       <span class="text-h5">Skills</span>
                       <v-divider></v-divider>
                       <p>これまでに触れたものを紹介したいと思います。</p>
-                      <span class="text-h5 mb-2"> 開発したことあるもの </span>
+                      <span class="text-h6">言語</span>
                       <v-divider></v-divider>
-                      <span>
+                      <span class="mb-5">
                         <v-icon> mdi-google </v-icon>
                         <span> GAS </span>
                         <v-icon> mdi-language-javascript </v-icon>
@@ -50,6 +50,8 @@
                         <v-icon> mdi-vuetify</v-icon>
                         <span>vuetify</span>
                       </span>
+                       <span class="text-h6">フレームワーク</span>
+                      <v-divider class="mb-2"></v-divider>
                       <p class="mt-5">このサイトはnuxt×vuetifyで作成しました。</p>
                     </v-col>
                   </v-row>

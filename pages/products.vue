@@ -31,7 +31,8 @@
                     <nuxt-link to="/" class="mb-3">トップへ戻る</nuxt-link>
                     <span class="text-h5">Products</span>
                     <v-divider></v-divider>
-                    <p class="mt-5">これまでに作ってきたbot一覧です。</p>
+                    <span class="mt-5">これまでに作ってきたbot一覧です。</span>
+                    <p>※至らないところがあると思いますが、楽しんでいただければと思います。</p>
                     <div>
                       <a
                         @click="jumpLink('https://line.me/R/ti/p/%40585uvlbh')"

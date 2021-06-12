@@ -7,7 +7,7 @@
           <header>
             <v-row>
               <v-col cols="12" class="d-flex justify-end">
-                <div class="d-flex align-center mx-4">Kinjy Shotaro</div>
+                <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>
                 <v-spacer> </v-spacer>
                 <div class="d-flex align-center">
                   <v-btn
@@ -67,13 +67,6 @@
                           to="/products"
                           >作ってきたbotの一覧</nuxt-link
                         >
-                      </p>
-                      <span class="text-h5"
-                        >trajectory</span
-                      >
-                      <v-divider></v-divider>
-                      <p>
-                        これまでの経歴や自分の今までの軌跡を紹介していきます。<nuxt-link to="/trajectory">詳しくはこちらへ</nuxt-link>
                       </p>
                       <span class="text-h5">Accounts</span>
                       <v-divider class="mb-2"></v-divider>

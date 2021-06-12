@@ -49,6 +49,7 @@
                       <span class="text-h5 mt-5">賞</span>
                       <v-divider></v-divider>
                       <span>平成39年度県民体育大会　団体ベスト4(硬式テニス)</span>
+                      <span>ハッカソン優勝</span>
                     </v-col>
                   </v-row>
                 </v-sheet>
