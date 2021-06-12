@@ -36,6 +36,7 @@
                       <v-img
                         src="/image.jpeg"
                         class="d-flex justify-center"
+                        
                       ></v-img>
                     </v-avatar>
                   </v-col>
