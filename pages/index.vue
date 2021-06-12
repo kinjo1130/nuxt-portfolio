@@ -36,7 +36,7 @@
                       <v-img
                         src="/image.jpeg"
                         class="d-flex justify-center"
-                        
+
                       ></v-img>
                     </v-avatar>
                   </v-col>
@@ -84,7 +84,7 @@
                         </v-btn>
                         <v-btn
                           outlined
-                          @click="LinkClick('https://qiita.com/abcshotaro616')"
+                          @click="LinkClick('https://github.com/AFURO-1130')"
                           color="github"
                           style="text-transform: none"
                           class="mr-2 my-1"
