@@ -7,9 +7,7 @@
           <header>
             <v-row>
               <v-col cols="12" class="d-flex justify-end">
-                <nuxt-link to="/" class="d-flex align-center mx-4"
-                  >Kinjyo Shotaro</nuxt-link
-                >
+                <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>
                 <v-spacer> </v-spacer>
                 <div class="d-flex align-center">
                  <v-btn
@@ -30,6 +28,7 @@
                 <v-sheet min-height="70vh" rounded="lg">
                   <v-row class="d-flex justify-center">
                     <v-col cols="10" xl="10" lg="10" md="10" sm="10">
+                         <nuxt-link to="/" class="mb-3">トップへ戻る</nuxt-link>
                       <v-form
                         action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSedrZU2MbBAIMYOUSC1luOrhdaLBLEKtj4ACQhqOXuYSjnT9w/formResponse"
                         method="POST"
