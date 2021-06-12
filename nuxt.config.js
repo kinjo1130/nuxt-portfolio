@@ -7,7 +7,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - my-web',
-    title: 'my-web',
+    title: 'KINJYO SHOTARO ',
     htmlAttrs: {
       lang: 'ja'
     },
