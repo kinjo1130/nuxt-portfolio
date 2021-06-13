@@ -33,12 +33,14 @@
                   <!-- アイコン -->
                   <v-col class="d-flex justify-center">
                     <v-avatar size="200" class="d-flex justify-center">
-                      <img
-                        src="@/assets/image/image.jpeg"
+                     
+                      <v-img
+                        :src="require('@/assets/image/image.jpeg')"
                         class="d-flex justify-center"
                         alt=""
 
-                      >
+                      ></v-img>
+                      
                     </v-avatar>
                   </v-col>
                   <!-- 名前 -->
