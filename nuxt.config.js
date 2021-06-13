@@ -57,14 +57,21 @@ export default {
       dark: true,
       themes: {
         dark: {
+          primary: colors.blue.darken2,
+          accent: colors.grey.darken3,
+          secondary: colors.amber.darken3,
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3,
           
-          github: '#211F1F',
           facebook: '#3B5998',
           twitter: '#1DA1F2',
           qiita: '#4cb10d'
         },
         light: {
-         
+          primary: colors.red.darken2,
+          accent: colors.blue.darken3,
           github: '#211F1F',
           facebook: '#3B5998',
           twitter: '#1DA1F2',
