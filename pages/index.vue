@@ -33,7 +33,6 @@
                   <!-- アイコン -->
                   <v-col class="d-flex justify-center">
                     <v-avatar size="200" class="d-flex justify-center">
-                     
                       <v-img
                         :src="require('@/assets/image/image.jpeg')"
                         class="d-flex justify-center"
