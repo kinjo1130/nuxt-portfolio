@@ -33,11 +33,12 @@
                   <!-- アイコン -->
                   <v-col class="d-flex justify-center">
                     <v-avatar size="200" class="d-flex justify-center">
-                      <v-img
-                        src="/image.jpeg"
+                      <img
+                        src="@/assets/image/image.jpeg"
                         class="d-flex justify-center"
+                        alt=""
 
-                      ></v-img>
+                      >
                     </v-avatar>
                   </v-col>
                   <!-- 名前 -->
@@ -52,13 +53,13 @@
                       <span class="text-h5">About me</span>
                       <v-divider></v-divider>
                       <p>
-                        普通科高校を卒業した18才。自分は主にフロンドエンドに興味があります。
+                        普通科高校を卒業した18才。自分今は主にフロンドエンドエンジニアをやっています。
                         <nuxt-link to="/about">もっと詳しくはこちら</nuxt-link>
                       </p>
                       <span class="text-h5">Skills</span>
                       <v-divider></v-divider>
                       <p>
-                        フロントエンド関連の技術をよく使います。
+                        フロントエンド関連の技術をよく使います。このサイトで初めてnuxtを使って、作ってみました。
                         <nuxt-link to="/skills">その他に触れたことがある技術</nuxt-link>
                       </p>
                       <span class="text-h5">Products</span>
@@ -144,7 +145,9 @@ import Vue from 'vue'
 export default Vue.extend({
   data() {
     return {
-      theme: true
+      theme: true,
+      
+      
     }
   },
   
