@@ -15,7 +15,8 @@
                     :color="theme ? 'orange' : 'yellow'"
                     @click="theme = !theme"
                     :prepend-icon="themeIcon"
-                  ><v-icon>{{ themeIcon }}</v-icon></v-btn>
+                    ><v-icon>{{ themeIcon }}</v-icon></v-btn
+                  >
                 </div>
               </v-col>
             </v-row>
@@ -33,12 +34,13 @@
                   <!-- アイコン -->
                   <v-col class="d-flex justify-center">
                     <v-avatar size="200" class="d-flex justify-center">
-                      <v-img
-                        :src="require('@/assets/image/image.jpeg')"
-                        class="d-flex justify-center"
-                        alt=""
-                      ></v-img>
-                      
+                      <img
+                        id="img"
+                        :src="require('@/assets/image/image.png')"
+                        alt="kinjyo shoutaro"
+                        width="500"
+                        height="500"
+                      />
                     </v-avatar>
                   </v-col>
                   <!-- 名前 -->
@@ -53,14 +55,16 @@
                       <span class="text-h5">About me</span>
                       <v-divider></v-divider>
                       <p>
-                        普通科高校を卒業した18才。自分今は主にフロンドエンドエンジニアをやっています。
+                        普通科高校を卒業した18才。主にフロンドエンドエンジニアをやっています。
                         <nuxt-link to="/about">もっと詳しくはこちら</nuxt-link>
                       </p>
                       <span class="text-h5">Skills</span>
                       <v-divider></v-divider>
                       <p>
                         フロントエンド関連の技術をよく使います。このサイトで初めてnuxtを使って、作ってみました。
-                        <nuxt-link to="/skills">その他に触れたことがある技術</nuxt-link>
+                        <nuxt-link to="/skills"
+                          >その他に触れたことがある技術</nuxt-link
+                        >
                       </p>
                       <span class="text-h5">Products</span>
                       <v-divider></v-divider>
@@ -80,7 +84,6 @@
                           color="twitter"
                           class="mr-2 my-1"
                         >
-                          
                           <span>Twitter</span>
                         </v-btn>
                         <v-btn
@@ -90,7 +93,6 @@
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
-                        
                           <span>Github</span>
                         </v-btn>
                         <v-btn
@@ -104,22 +106,30 @@
                         </v-btn>
                         <v-btn
                           outlined
-                          @click="LinkClick('https://www.facebook.com/profile.php?id=100041031907963')"
+                          @click="
+                            LinkClick(
+                              'https://www.facebook.com/profile.php?id=100041031907963'
+                            )
+                          "
                           color="facebook"
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
                           <span>Facebook</span>
                         </v-btn>
-                        
-                        
                       </section>
                       <!-- 随時追加する -->
                       <span class="text-h5"> Contact </span>
                       <v-divider></v-divider>
                       <p>
                         <nuxt-link to="/contact">お問い合わせページ</nuxt-link
-                        >はこちら、もしくは<a href="" @click="LinkClick('https://twitter.com/messages/865937877271625729-865937877271625729?text=')"
+                        >はこちら、もしくは<a
+                          href=""
+                          @click="
+                            LinkClick(
+                              'https://twitter.com/messages/865937877271625729-865937877271625729?text='
+                            )
+                          "
                           >TwitterのDMまで</a
                         >
                       </p>
@@ -141,8 +151,6 @@
 
 <script lang="js">
 import Vue from 'vue'
-
-
 export default Vue.extend({
   data() {
     return {
@@ -170,3 +178,10 @@ export default Vue.extend({
   
 })
 </script>
+<style>
+#img {
+  width: "auto";
+  height: "100%";
+  
+}
+</style>
