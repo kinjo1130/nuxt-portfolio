@@ -1,5 +1,5 @@
 <template>
-  <v-app class="grey">
+  <v-app class="grey darken-2">
     <v-container fluid>
       <v-content>
         <v-flex>
@@ -56,13 +56,13 @@
                       <v-divider></v-divider>
                       <p>
                         普通科高校を卒業した18才。主にフロンドエンドエンジニアをやっています。
-                        <nuxt-link to="/about">もっと詳しくはこちら</nuxt-link>
+                        <nuxt-link to="/about" class="blue--text text--darken-5">もっと詳しくはこちら</nuxt-link>
                       </p>
                       <span class="text-h5">Skills</span>
                       <v-divider></v-divider>
                       <p>
                         フロントエンド関連の技術をよく使います。このサイトで初めてnuxtを使って、作ってみました。
-                        <nuxt-link to="/skills"
+                        <nuxt-link to="/skills" class="blue--text text--darken-5"
                           >その他に触れたことがある技術</nuxt-link
                         >
                       </p>
@@ -70,7 +70,7 @@
                       <v-divider></v-divider>
                       <p>
                         個人開発が好きで、これまでに作ったLinebotを紹介します。<nuxt-link
-                          to="/products"
+                          to="/products" class="blue--text text--darken-5"
                           >作ってきたbotの一覧</nuxt-link
                         >
                       </p>
@@ -122,9 +122,10 @@
                       <span class="text-h5"> Contact </span>
                       <v-divider></v-divider>
                       <p>
-                        <nuxt-link to="/contact">お問い合わせページ</nuxt-link
+                        <nuxt-link to="/contact" class="blue--text text--darken-5">お問い合わせページ</nuxt-link
                         >はこちら、もしくは<a
                           href=""
+                          class="blue--text text--darken-5"
                           @click="
                             LinkClick(
                               'https://twitter.com/messages/865937877271625729-865937877271625729?text='

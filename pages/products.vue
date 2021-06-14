@@ -28,7 +28,7 @@
               <v-sheet min-height="70vh" rounded="lg">
                 <v-row class="d-flex justify-center">
                   <v-col cols="10" xl="10" lg="10" md="10" sm="10" class="d-flex flex-column">
-                    <nuxt-link to="/" class="mb-3">トップへ戻る</nuxt-link>
+                    <nuxt-link to="/" class="mb-3 blue--text text--darken-5" >トップへ戻る</nuxt-link>
                     <span class="text-h5">Products</span>
                     <v-divider></v-divider>
                     <span class="mt-5">これまでに作ってきたbot一覧です。</span>
@@ -37,6 +37,8 @@
                       <a
                         @click="jumpLink('https://line.me/R/ti/p/%40585uvlbh')"
                         class="text-h6"
+                        
+
                         >位置情報天気予報bot</a
                       >
                       <p class="mb-5">
