@@ -15,9 +15,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '自分の今までのやってきたことや自己紹介などをまとめています。' },
-      { hid: 'keywords', name: 'keywords', content: '金城,きんじょう,キンジョウ' },
-
       { hid: 'og:site_name', property: 'og:site_name', content: 'KINJYO SHOTARO’s portfolio' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://kinjyo.me' },
