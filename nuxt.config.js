@@ -65,16 +65,17 @@ export default {
           warning: "#F44537",
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
-          
-          facebook: '#0288D1',
+          speakerDeck:'#019287',
+          facebook: '#448AFF',
           twitter: '#1DA1F2',
           qiita: '#4cb10d'
         },
         light: {
           primary: colors.red.darken2,
           accent: colors.blue.darken3,
+          speakerDeck:'#019287',
           github: '#211F1F',
-          facebook: '#0288D1',
+          facebook: '#448AFF',
           twitter: '#1DA1F2',
           qiita: '#4cb10d'
         }

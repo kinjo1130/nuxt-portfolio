@@ -117,6 +117,19 @@
                         >
                           <span>Facebook</span>
                         </v-btn>
+                         <v-btn
+                          outlined
+                          @click="
+                            LinkClick(
+                              'https://speakerdeck.com/kinjyo'
+                            )
+                          "
+                          color="speakerDeck"
+                          style="text-transform: none"
+                          class="mr-2 my-1"
+                        >
+                          <span>SpeakerDeck</span>
+                        </v-btn>
                       </section>
                       <!-- 随時追加する -->
                       <span class="text-h5"> Contact </span>
