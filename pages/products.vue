@@ -28,7 +28,7 @@
               <v-sheet min-height="70vh" rounded="lg">
                 <v-row class="d-flex justify-center">
                   <v-col cols="10" xl="10" lg="10" md="10" sm="10" class="d-flex flex-column">
-                    <nuxt-link to="/" class="mb-3 blue--text text--darken-5" >トップへ戻る</nuxt-link>
+                    <nuxt-link to="/"  >トップへ戻る</nuxt-link>
                     <span class="text-h5">Products</span>
                     <v-divider></v-divider>
                     <span class="mt-5">これまでに作ってきたbot一覧です。</span>
