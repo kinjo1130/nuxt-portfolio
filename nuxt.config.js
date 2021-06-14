@@ -14,8 +14,14 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '自分の今までのやってきたことや自己紹介などをまとめています。' },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'description', name: 'description', content: '今までの活動と自己紹介をまとめました。' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'KINJYO SHOTARO’s　portfolio' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://kinjyo.me' },
+      { hid: 'og:title', property: 'og:title', content: 'KINJYO SHOTARO’s　portfolio' },
+      { hid: 'og:description', property: 'og:description', content: '今までの活動と自己紹介をまとめました。' },
+      { hid: 'og:image', property: 'og:image', content: '画像のURL' },
+      { name: 'twitter:card', content: 'summary_large_image' },　//twitterの画像サイズ
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
