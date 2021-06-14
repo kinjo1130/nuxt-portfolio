@@ -55,7 +55,7 @@
                       <span class="text-h5">About me</span>
                       <v-divider></v-divider>
                       <p>
-                        普通科高校を卒業した18才。主にフロンドエンドエンジニアをやっています。
+                        普通科高校を卒業した18才。趣味でフロントエンドを開発している人間です。
                         <nuxt-link to="/about" class="blue--text text--darken-5">もっと詳しくはこちら</nuxt-link>
                       </p>
                       <span class="text-h5">Skills</span>

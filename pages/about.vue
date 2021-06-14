@@ -44,12 +44,10 @@
                       </p>
                       <span class="text-h5 d-flex flex-column">資格</span>
                       <v-divider></v-divider>
-                      <span>珠算技能検定1級</span>
                       <span>普通自動車免許</span>
                       <span class="text-h5 mt-5">賞</span>
                       <v-divider></v-divider>
                       <span>平成29年度県民体育大会　団体ベスト4(硬式テニス)</span>
-                      <span>ハッカソン優勝</span>
                     </v-col>
                   </v-row>
                 </v-sheet>
