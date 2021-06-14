@@ -111,7 +111,7 @@
                               'https://www.facebook.com/profile.php?id=100041031907963'
                             )
                           "
-                          color="white"
+                          color="facebook"
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
