@@ -21,7 +21,7 @@ export default {
       { hid: 'og:description', property: 'og:description', content: '自分の今までのやってきたことや自己紹介などをまとめています。' },
       { hid: 'og:image', property: 'og:image', content: '@/assets/image/image.png' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@Twitter' }
+      { hid: 'twitter:site', name: 'twitter:site', content: '@kinjyo1130' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
