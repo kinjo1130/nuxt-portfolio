@@ -15,10 +15,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'KINJYO SHOTARO’s portfolio' },
+      
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://kinjyo.me' },
-      { hid: 'og:title', property: 'og:title', content: 'KINJYO SHOTARO’s portfolio' },
       { hid: 'og:description', property: 'og:description', content: '自分の今までのやってきたことや自己紹介などをまとめています。' },
       { hid: 'og:image', property: 'og:image', content: '@/assets/image/image.png' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
