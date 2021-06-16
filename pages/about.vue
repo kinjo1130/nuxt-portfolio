@@ -40,14 +40,22 @@
                       <p>
                         テニスやスノボーなど体動かすことが好きです。
                         最近はドライブすることが息抜きです。
-                        アニメや漫画はよく読んでいて、漫画ボケなんかもよくします笑
+                        アニメや漫画はよく読んでいて、漫画ボケなんかもよくします。
+                        実は、家にはテニスラケットが5,6本あったりします。
                       </p>
                       <span class="text-h5 d-flex flex-column">資格</span>
                       <v-divider></v-divider>
+                      <span>英検4級</span>
                       <span>普通自動車免許</span>
-                      <span class="text-h5 mt-5">賞</span>
+                      <span class="text-h5 mt-5">賞(ほぼ部活)</span>
                       <v-divider></v-divider>
                       <span>平成29年度県民体育大会　団体ベスト4(硬式テニス)</span>
+                      <span>滋賀県中学校夏季総合体育大会 ソフトテニス　第二位</span>
+                      <span>滋賀県中学校秋季総合体育大会 ソフトテニス　第二位</span>
+                      <span>滋賀県新人研修大会 ソフトテニス　第二位</span>
+                      <span>滋賀県中学校春季総合体育大会 ソフトテニス　第二位</span>
+                      <span>市民大会　第3位</span>
+                      <span>EPSON ハッカソン　優勝</span>
                     </v-col>
                   </v-row>
                 </v-sheet>

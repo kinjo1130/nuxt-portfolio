@@ -31,7 +31,7 @@
                     <nuxt-link to="/"  >トップへ戻る</nuxt-link>
                     <span class="text-h5">Products</span>
                     <v-divider></v-divider>
-                    <span class="mt-5">これまでに作ってきたbot一覧です。</span>
+                    <span class="mt-5">これまでに作ってきたもの一覧です。</span>
                     <p>※至らないところがあると思いますが、楽しんでいただければと思います。</p>
                     <div>
                       <a
@@ -63,6 +63,16 @@
                       >
                       <p class="mb-5">
                         問題を出すbotの基本の形で、点数表示もできる。
+                      </p>
+                    </div>
+                    <div>
+                      <a
+                        @click="jumpLink('https://kinjyo.me')"
+                        class="text-h6"
+                        >ポートフォリオサイト</a
+                      >
+                      <p class="mb-5">
+                        初めてnuxt×vuetifyでSPA開発してみました。
                       </p>
                     </div>
                   </v-col>

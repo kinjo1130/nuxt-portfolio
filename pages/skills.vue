@@ -26,7 +26,7 @@
           <v-main>
             <v-row class="d-flex justify-center">
               <v-col cols="12" sm="7">
-                <v-sheet min-height="70vh" rounded="lg">
+                <v-sheet min-height="60vh" rounded="lg">
                   <v-row class="d-flex justify-center">
                     <v-col
                       cols="10"
@@ -39,12 +39,23 @@
                       <nuxt-link to="/" class="mb-3">トップへ戻る</nuxt-link>
                       <span class="text-h5">Skills</span>
                       <v-divider></v-divider>
-                      <p>これまでに触れたものを紹介したいと思います。</p>
-                      <span class="text-h6">言語</span>
+                      <span class="mb-5">これまでに触れたものを紹介したいと思います。</span>
+                      <span class="text-h6">Language</span>
                       <v-divider></v-divider>
                       <span class="mb-5">
-                        Google App Script  / vue.js / nuxt.js / AWS / Firebase / 
+                        javascript / HTML / CSS / Node.js
                       </span>
+                       <span class="text-h6">Framework</span>
+                      <v-divider></v-divider>
+                      <span class="mb-5">
+                        vue.js / Nuxt.js / Vuetify / Bootstrap 
+                      </span>
+                      <span class="text-h6">Other</span>
+                      <v-divider></v-divider>
+                      <span class="mb-5">
+                        Google App Script  / github / Netlify
+                      </span>
+                      <span>最近興味あるのは、TypeScriptとfirebaseかAWSなどのインフラ技術とnode以外のバックエンド技術です。(欲張りすぎた笑)</span>
                     </v-col>
                   </v-row>
                 </v-sheet>
