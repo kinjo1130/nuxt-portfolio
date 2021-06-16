@@ -141,7 +141,7 @@
                           class="blue--text text--darken-5"
                           @click="
                             LinkClick(
-                              'https://twitter.com/messages/865937877271625729-865937877271625729?text='
+                              'https://twitter.com/messages/3292428481-865937877271625729?recipient_id=865937877271625729&text='
                             )
                           "
                           >TwitterのDMまで</a
