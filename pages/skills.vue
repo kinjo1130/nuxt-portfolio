@@ -53,7 +53,7 @@
                       <span class="text-h6">Other</span>
                       <v-divider></v-divider>
                       <span class="mb-5">
-                        Google App Script  / github / Netlify
+                        Google App Script  / github 
                       </span>
                       <span>最近興味あるのは、TypeScriptとfirebaseかAWSなどのインフラ技術とnode以外のバックエンド技術です。(欲張りすぎた笑)</span>
                     </v-col>
