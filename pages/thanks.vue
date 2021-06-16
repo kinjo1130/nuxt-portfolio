@@ -39,7 +39,7 @@
                       <nuxt-link to="/" class="mb-3">トップへ戻る</nuxt-link>
                       <v-row class="d-flex justify-center">
                         <div  class="d-flex flex-column">
-                          <p>お問い合わせありがとうございました！</p>
+                          <p>お問い合わせありがとうございました</p>
                           <p>24時間以内にご返信さしていただきます！</p>
                         </div>
                       </v-row>
