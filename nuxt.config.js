@@ -20,7 +20,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https://kinjyo.me' },
       { hid: 'og:title', property: 'og:title', content: 'KINJYO SHOTARO’s　portfolio' },
       { hid: 'og:description', property: 'og:description', content: '今までの活動と自己紹介をまとめました。' },
-      { hid: 'og:image', property: 'og:image', content: '画像のURL' },
+      { hid: 'og:image', property: 'og:image', content: '/image.png' },
       { name: 'twitter:card', content: 'summary_large_image' },　//twitterの画像サイズ
     ],
     link: [
