@@ -138,14 +138,13 @@
                         <nuxt-link to="/contact" class="blue--text text--darken-5">お問い合わせページ</nuxt-link
                         >はこちら、もしくは<a
                           href=""
-                          class="blue--text text--darken-5"
+                          class="blue--text text--darken-5 "
                           @click="
                             LinkClick(
-<<<<<<< HEAD
                               
-=======
+
                               'https://www.twitter.com/messages/compose?recipient_id=865937877271625729'
->>>>>>> ecad7e4f760d0ae9a519d402742c51fe16d032ed
+
                             )
                           "
                           >TwitterのDMまで</a
