@@ -3,6 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
+  
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -29,6 +30,7 @@ export default {
       
     ]
   },
+  
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -45,7 +47,11 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/google-analytics'
   ],
+  googleAnalytics: {
+    id: 'G-1M4CM8007S' //自身のアナリティクスコード
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
