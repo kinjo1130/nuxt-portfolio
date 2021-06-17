@@ -46,7 +46,7 @@
                   <!-- 名前 -->
                   <v-col>
                     <p class="text-h4 font-weight-black text-center mt-3" >
-                      Shotaro Kinjyo/金城翔太郎
+                      Shotaro Kinjyo
                     </p>
                     <!-- メイン -->
                   </v-col>
