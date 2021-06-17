@@ -47,16 +47,6 @@
                     </div>
                     <div>
                       <a
-                        @click="jumpLink('https://line.me/R/ti/p/%40359rqzfr')"
-                        class="text-h6"
-                        >貯蓄bot</a
-                      >
-                      <p class="mb-5">
-                        botにやることやメモなどを貯蓄しておくことができる。
-                      </p>
-                    </div>
-                    <div>
-                      <a
                         @click="jumpLink('https://line.me/R/ti/p/%40572ijpuh')"
                         class="text-h6"
                         >かねしろ一号</a
