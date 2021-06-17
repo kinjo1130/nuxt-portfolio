@@ -58,7 +58,7 @@ export default {
     '@nuxtjs/google-gtag'
     
   ],
-  googleAnalytics: {
+  'google-gtag': {
     id: 'G-1M4CM8007S',//自身のアナリティクスコード
     
   },
