@@ -51,7 +51,7 @@ export default {
   ],
   googleAnalytics: {
     id: 'G-1M4CM8007S',//自身のアナリティクスコード
-    debug: true, 
+    
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
