@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'KINJYO SHOTARO’s　portfolio',
+    title: "KINJYO SHOTARO's portfolio",
     htmlAttrs: {
       lang: 'ja',
       prefix: 'og: http://ogp.me/ns#'
@@ -16,13 +16,13 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '今までの活動と自己紹介をまとめました。' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'KINJYO SHOTARO’s　portfolio' },
+      { hid: 'og:site_name', property: 'og:site_name', content: "KINJYO SHOTARO's portfolio" },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://kinjyo.me' },
-      { hid: 'og:title', property: 'og:title', content: 'KINJYO SHOTARO’s　portfolio' },
+      { hid: 'og:title', property: 'og:title', content: "KINJYO SHOTARO's portfolio" },
       { hid: 'og:description', property: 'og:description', content: '今までの活動と自己紹介をまとめました。' },
       { hid: 'og:image', property: 'og:image', content: 'https://kinjyo.me/_nuxt/img/image.1c1b45f.png' },
-      { name: 'twitter:card', content: 'summary_large_image' },　//twitterの画像サイズ
+      { name: 'twitter:card', content: 'summary_large_image' }, //twitterの画像サイズ
       { name:"google-site-verification", content:"PtYzxYyQoXOUhMNBGYRzN56uPOUCSR5_6dFkZ22v0I4" }
     ],
     link: [
