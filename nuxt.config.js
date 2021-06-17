@@ -23,12 +23,12 @@ export default {
       { hid: 'og:description', property: 'og:description', content: '今までの活動と自己紹介をまとめました。' },
       { hid: 'og:image', property: 'og:image', content: 'https://kinjyo.me/_nuxt/img/image.1c1b45f.png' },
       { name: 'twitter:card', content: 'summary_large_image' },　//twitterの画像サイズ
+      { name:"google-site-verification", content:"PtYzxYyQoXOUhMNBGYRzN56uPOUCSR5_6dFkZ22v0I4" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      
-      
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },  
     ]
+    
   },
   
 

@@ -7,7 +7,7 @@
           <header class="mb-5">
             <v-row>
               <v-col cols="12" class="d-flex justify-end">
-                <span class="d-flex align-center mx-4" >Kinjyo Shotaro</span>
+                <span class="d-flex align-center mx-4" >Kinjyo Shotaro/金城翔太郎</span>
                 <v-spacer> </v-spacer>
                 <div class="d-flex align-center">
                   <v-btn
