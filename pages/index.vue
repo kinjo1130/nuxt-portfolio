@@ -141,7 +141,7 @@
                           class="blue--text text--darken-5 "
                           @click="
                             LinkClick(
-                              
+
 
                               'https://www.twitter.com/messages/compose?recipient_id=865937877271625729'
 
@@ -174,7 +174,7 @@ export default Vue.extend({
       theme: true,
     }
   },
-  
+
   computed: {
     themeIcon(){
       return this.theme ? 'mdi-weather-sunny' :  'mdi-weather-night'
@@ -189,16 +189,16 @@ export default Vue.extend({
     LinkClick(url){
       window.open( url,'_blank')
     },
-    
+
 
   },
-  
+
 })
 </script>
 <style>
 #img {
   width: "auto";
   height: "100%";
-  
+
 }
 </style>

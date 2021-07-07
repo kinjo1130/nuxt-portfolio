@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-  
+
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -26,11 +26,11 @@ export default {
       { name:"google-site-verification", content:"PtYzxYyQoXOUhMNBGYRzN56uPOUCSR5_6dFkZ22v0I4" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },  
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
-    
+
   },
-  
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -47,29 +47,42 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    
+
   ],
-  
+
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/google-gtag'
-    
+    '@nuxtjs/google-gtag',
+    '@nuxtjs/pwa'
+
   ],
   'google-gtag': {
     id: 'G-1M4CM8007S',//自身のアナリティクスコード
-    
+
   },
-  
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  manifest: {
+    name: "KINJYO SHOTARO's portfolio",
+    lang: 'ja',
+    short_name: "KINJYO SHOTARO's portfolio",
+    title: "KINJYO SHOTARO's portfolio",
+    'og:title': "KINJYO SHOTARO's portfolio",
+    description: "今までの活動と自己紹介をまとめました。",
+    'og:description': "今までの活動と自己紹介をまとめました。",
+    theme_color: '#212121',
+    background_color: '#212121'
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    
+
     theme: {
       dark: true,
       themes: {
