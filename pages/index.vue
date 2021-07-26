@@ -174,6 +174,7 @@ export default Vue.extend({
       theme: true,
     }
   },
+  
 
   computed: {
     themeIcon(){
