@@ -130,6 +130,19 @@
                         >
                           <span>SpeakerDeck</span>
                         </v-btn>
+                        <v-btn
+                          outlined
+                          @click="
+                            LinkClick(
+                              'https://my-blog.jp'
+                            )
+                          "
+                          color="#FB8C00"
+                          style="text-transform: none"
+                          class="mr-2 my-1"
+                        >
+                          <span>Blog</span>
+                        </v-btn>
                       </section>
                       <!-- 随時追加する -->
                       <span class="text-h5"> Contact </span>
@@ -174,7 +187,7 @@ export default Vue.extend({
       theme: true,
     }
   },
-  
+
 
   computed: {
     themeIcon(){
