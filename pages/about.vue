@@ -47,8 +47,7 @@
                       <v-divider></v-divider>
                       <span>英検4級</span>
                       <span>普通自動車免許</span>
-                      <!-- <span class="text-h5 mt-5">賞</span>
-                      <v-divider></v-divider> -->
+                      
 
                     </v-col>
                   </v-row>
