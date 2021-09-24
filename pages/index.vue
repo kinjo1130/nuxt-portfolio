@@ -61,7 +61,7 @@
                       <span class="text-h5">Skills</span>
                       <v-divider></v-divider>
                       <p>
-                        フロントエンド関連の技術をよく使います。このサイトで初めてnuxtを使って、作ってみました。
+                        フロントエンド関連の技術をよく使います。このサイトで初めてNuxtを使って、作ってみました。
                         <nuxt-link to="/skills" class="blue--text text--darken-5"
                           >その他に触れたことがある技術</nuxt-link
                         >
