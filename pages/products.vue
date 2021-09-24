@@ -37,7 +37,7 @@
                       <a
                         @click="jumpLink('https://line.me/R/ti/p/%40585uvlbh')"
                         class="text-h6"
-                        
+
 
                         >位置情報天気予報bot</a
                       >
@@ -63,6 +63,16 @@
                       >
                       <p class="mb-5">
                         初めてnuxt×vuetifyでSPA開発してみました。
+                      </p>
+                    </div>
+                    <div>
+                      <a
+                        @click="jumpLink('https://my-blog.jp')"
+                        class="text-h6"
+                        >ブログサイト</a
+                      >
+                      <p class="mb-5">
+                        Nuxt.js × Tailwind.css × Netlify CMSで作ってみました。
                       </p>
                     </div>
                   </v-col>
@@ -103,8 +113,8 @@ export default Vue.extend({
       jumpLink(url){
           window.open(url,'_blank');
       },
-      
+
   }
-  
+
 })
 </script>
