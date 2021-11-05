@@ -1,37 +1,21 @@
 <template>
-  <v-app class="grey">
+  <v-app class="grey darken-2">
     <v-container fluid>
       <v-content>
         <v-flex>
           <!--ヘッダー-->
-          <header class="mb-5">
-            <v-row>
-              <v-col cols="12" class="d-flex justify-end">
-                <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>
-                <v-spacer> </v-spacer>
-                <div class="d-flex align-center">
-                  <v-btn
-                    outlined
-                    :color="theme ? 'orange' : 'dark'"
-                    @click="theme = !theme"
-                    :prepend-icon="themeIcon"
-                    ><v-icon>{{ themeIcon }}</v-icon></v-btn
-                  >
-                </div>
-              </v-col>
-            </v-row>
-          </header>
+          <Header></Header>
           <!--メイン-->
 
           <v-row class="d-flex justify-center">
             <v-col cols="12" sm="7">
-              <v-sheet min-height="70vh" rounded="lg">
-                <v-row class="d-flex justify-center">
+              <v-sheet min-height="70vh" rounded="lg"  class="d-flex justify-center flex-column ">
+                <v-row class="d-flex justify-center mt-1">
                   <v-col cols="10" xl="10" lg="10" md="10" sm="10" class="d-flex flex-column">
                     <nuxt-link to="/"  >トップへ戻る</nuxt-link>
                     <span class="text-h5">Products</span>
                     <v-divider></v-divider>
-                    <span class="mt-5">これまでに作ってきたもの一覧です。</span>
+                    <p class="mt-5 mb-0">これまでに作ってきたもの一覧です。</p>
                     <p>※至らないところがあると思いますが、楽しんでいただければと思います。</p>
                     <div>
                       <a

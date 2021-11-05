@@ -4,30 +4,12 @@
       <v-content>
         <v-flex>
           <!--ヘッダー-->
-          <header class="mb-5">
-            <v-row>
-              <v-col cols="12" class="d-flex justify-end">
-                <span class="d-flex align-center mx-4" >Kinjyo Shotaro</span>
-                <v-spacer> </v-spacer>
-                <div class="d-flex align-center">
-                  <v-btn
-                    outlined
-                    :color="theme ? 'orange' : 'yellow'"
-                    @click="theme = !theme"
-                    :prepend-icon="themeIcon"
-                    ><v-icon>{{ themeIcon }}</v-icon></v-btn
-                  >
-                </div>
-              </v-col>
-            </v-row>
-          </header>
+          <Header></Header>
           <!--メイン-->
-
           <v-main>
             <v-row class="d-flex justify-center">
-              <v-col cols="12" xl="7" lg="7" md="7" sm="7" xs="7">
+              <v-col cols="12" xl="7" lg="7" md="7" sm="7" xs="7" max-width="50vh">
                 <v-sheet
-                  min-height="108vh"
                   rounded="lg"
                   class="d-flex justify-center flex-column"
                 >
@@ -74,7 +56,7 @@
                           >作ってきたbotの一覧</nuxt-link
                         >
                       </p>
-                      <span class="text-h5">Accounts</span>
+                      <p class="text-h5 mb-0">Accounts</p>
                       <v-divider class="mb-2"></v-divider>
                       <section class="mb-5">
                         <v-btn
@@ -84,7 +66,7 @@
                           color="twitter"
                           class="mr-2 my-1"
                         >
-                          <span>Twitter</span>
+                          <p class="mb-0">Twitter</p>
                         </v-btn>
                         <v-btn
                           outlined
@@ -93,7 +75,7 @@
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
-                          <span>Github</span>
+                          <p class="mb-0">Github</p>
                         </v-btn>
                         <v-btn
                           outlined
@@ -102,7 +84,7 @@
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
-                          <span>Qiita</span>
+                          <p class="mb-0">Qiita</p>
                         </v-btn>
                         <v-btn
                           outlined
@@ -115,7 +97,7 @@
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
-                          <span>Facebook</span>
+                          <p class="mb-0">Facebook</p>
                         </v-btn>
                          <v-btn
                           outlined
@@ -128,7 +110,7 @@
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
-                          <span>SpeakerDeck</span>
+                          <p class="mb-0">SpeakerDeck</p>
                         </v-btn>
                         <v-btn
                           outlined
@@ -141,11 +123,11 @@
                           style="text-transform: none"
                           class="mr-2 my-1"
                         >
-                          <span>Blog</span>
+                          <p class="mb-0">Blog</p>
                         </v-btn>
                       </section>
                       <!-- 随時追加する -->
-                      <span class="text-h5"> Contact </span>
+                      <p class="text-h5 mb-0"> Contact </p>
                       <v-divider></v-divider>
                       <p>
                         <nuxt-link to="/contact" class="blue--text text--darken-5">お問い合わせページ</nuxt-link

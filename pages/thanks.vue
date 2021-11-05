@@ -1,32 +1,15 @@
 <template>
-  <v-app class="grey">
+  <v-app class="grey darken-2">
     <v-container fluid>
       <v-content>
         <v-flex>
           <!--ヘッダー-->
-          <header class="mb-5">
-            <v-row>
-              <v-col cols="12" class="d-flex justify-end">
-                <div class="d-flex align-center mx-4">Kinjyo Shotaro</div>
-                <v-spacer> </v-spacer>
-                <div class="d-flex align-center">
-                  <v-btn
-                    outlined
-                    :color="theme ? 'orange' : 'yellow'"
-                    @click="theme = !theme"
-                    :prepend-icon="themeIcon"
-                    ><v-icon>{{ themeIcon }}</v-icon></v-btn
-                  >
-                </div>
-              </v-col>
-            </v-row>
-          </header>
+          <Header></Header>
           <!--メイン-->
-
           <v-main>
             <v-row class="d-flex justify-center">
               <v-col cols="12" xl="7" lg="7" md="7" sm="7" xs="7">
-                <v-sheet min-height="60vh" rounded="lg">
+                <v-sheet min-height="60vh" rounded="lg"  class="d-flex justify-center flex-column ">
                   <v-row class="d-flex justify-center">
                     <v-col
                       cols="10"
